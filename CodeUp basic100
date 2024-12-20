@@ -1,0 +1,317 @@
+#1
+print("Hello")
+
+#2
+print("Hello World")
+
+#3 
+print("Hello\nWorld")
+
+#4 
+print("'Hello'")
+
+#5 
+print('"Hello World"')
+
+#6 
+print("\"!@#$%^&*()'")
+
+#7 
+print("\"C:\\Download\\'hello'.py\"")
+
+#8 
+print('print("Hello\\nWorld")')
+
+#9 
+print(input())
+
+#10 
+print(int(input()))
+
+#11 
+print(float(input()))
+
+#12 
+print(input() + "\n" + input())
+
+#13
+a = input()
+b = input()
+
+print(b + "\n" + a)
+
+#14
+print((input() + "\n") * 3)
+
+#15
+a, b = map(str, input().split())
+
+print(a+"\n"+b)
+ 
+#16
+a, b = map(str, input().split())
+
+print(b + " " + a)
+
+#17
+print(((input() + " ") * 3).strip())
+
+#18
+a,b = input().split(':')
+print(a,b, sep=':')
+
+#19
+year, mon, day = map(str, input().split("."))
+
+print(f"{day}-{mon}-{year}")
+
+#20
+a, b = map(str, input().split("-"))
+
+print(f"{a}{b}")
+
+#21
+print("\n".join(list(map(str, input()))))
+
+#22
+n = input()
+
+print(n[0:2], n[2:4], n[4:])
+
+#23
+print(input().split(":")[1])
+
+#24
+print(input().replace(" ", ""))
+
+#25
+a, b = map(int, input().split())
+
+print(a+b)
+
+#26
+print(float(input()) + float(input()))
+
+#27
+print("%x" % int(input()))
+
+#28
+print(("%x" % int(input())).upper())
+
+#29
+print("%o" % int(input(), 16))
+
+#30
+print(ord(input()))
+
+#31
+print(chr(int(input())))
+
+#32
+print(-int(input()))
+
+#33
+print(chr(ord(input()) + 1))
+
+#34
+a, b = map(int, input().split())
+
+print(a - b)
+
+#35
+a, b = map(float, input().split())
+
+print(a * b)
+
+#36
+w, n = map(str, input().split())
+
+print(w * int(n))
+
+#37
+n = int(input())
+
+print(input() * n)
+
+#38
+a, b = map(int, input().split())
+
+print(a**b)
+
+#39
+a,b = map(float, input().split())
+
+print(a**b)
+
+#40
+a,b = map(int, input().split())
+
+print(a // b)
+
+#41
+a, b = map(int, input().split())
+
+print(a % b)
+
+#42
+print(format(float(input()), ".2f"))
+
+#43
+a, b = map(float, input().split())
+
+print(format(a / b, ".3f"))
+
+#44
+a, b = map(int, input().split())
+c = format(a / b, ".2f")
+
+print(f"{a + b}\n{a - b}\n{a * b}\n{a // b}\n{a % b}\n{c}")
+
+#45
+nums = list(map(int, input().split()))
+
+print(sum(nums), format(sum(nums) / len(nums), ".2f"))
+
+#46
+n=int(input())
+print(n<<1)
+
+#47
+a, b = map(int, input().split())
+
+print(a * 2**b)
+
+#48
+a, b = map(int, input().split())
+
+print("True" if a < b else "False")
+
+#49
+a, b = map(int, input().split())
+
+print("True" if a == b else "False")
+#50
+a, b = map(int, input().split())
+
+print("True" if b >= a else "False")
+#51
+a, b = map(int, input().split())
+
+print("True" if a != b else "False")
+#52
+print("False" if not int(input()) else "True")
+#53
+print("False" if int(input()) else "True")
+#54
+a, b = map(int, input().split())
+
+print("True" if a and b else "False")
+#55
+a, b = map(int, input().split())
+
+print("True" if a or b else "False")
+#56
+a, b = map(int, input().split())
+
+print("True" if (a and not b) or (not a and b) else "False")
+#57
+a, b = map(int, input().split())
+
+print("True" if (not a and not b) or (a and b) else "False")
+#58
+a, b = map(int, input().split())
+
+print("False" if a or b else "True")
+#59
+print(~int(input()))
+#60
+a, b = map(int, input().split())
+
+print(int(a & b))
+#61
+a, b = map(int, input().split())
+
+print(int(a | b))
+#62
+a, b = map(int, input().split())
+
+print(int(a ^ b))
+#63
+print(max(list(map(int, input().split()))))
+#64
+print(min(list(map(int, input().split()))))
+#65
+nums = list(map(int, input().split()))
+
+for n in nums:
+    if not n % 2:
+        print(n)
+#66
+nums = list(map(int, input().split()))
+
+for n in nums:
+    print("even" if n % 2 == 0 else "odd")
+
+#67
+
+#68
+
+#69
+
+#70
+
+#71
+
+#72
+
+#73
+
+#74
+
+#75
+
+#76
+
+#77
+
+#78
+
+#79
+
+#80
+
+#81
+
+#82
+
+#83
+
+#84
+
+#85
+
+#86
+
+#87
+
+#88
+
+#89
+
+#90
+
+#91
+
+#92
+
+#93
+
+#94
+
+#95
+
+#96
+
+#97
+
+#98
