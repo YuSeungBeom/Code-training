@@ -253,37 +253,128 @@ for n in nums:
     print("even" if n % 2 == 0 else "odd")
 
 #67
+a = int(input())
 
+if (a<0) and (a%2==0):
+    print('A')
+elif (a<0) and (a%2==1):
+    print('B')
+elif (a>0) and (a%2==0):
+    print('C')
+elif (a>0) and (a%2==1):
+    print('D')
 #68
+a = int(input())
 
+if a >= 90:
+    print('A')
+elif a >= 70:
+    print('B')
+elif a >= 40:
+    print('C')
+else:
+    print('D')
 #69
+a = str(input())
 
+if a == 'A':
+    print('best!!!')
+elif a == 'B':
+    print('good!!')
+elif a == 'C':
+    print('run!')
+elif a == 'D':
+    print('slowly~')
+else:
+    print('what?')
 #70
-
+n = int(input())
+if n//3 == 0:
+    print("winter")
+elif n//3 == 1:
+    print("spring")
+elif n//3 == 2:
+    print("summer")
+elif n //3 ==3:
+    print("fall")
+elif n //3==4:
+    print("winter")
 #71
-
+n = 1
+while n!=0 :
+    n = int(input())
+    if n!=0 :
+        print(n)
 #72
-
+n = int(input())
+while n!=0 :
+    print(n)
+    n = n-1
 #73
-
+n = int(input())
+while n !=0 :
+    n = n-1
+    print(n)
 #74
-
+c = ord(input())
+t = ord('a')
+while t<=c :
+  print(chr(t), end=' ')
+  t += 1
 #75
-
+n = int(input())
+a = 0
+while a <= n:
+    print(a)
+    a += 1
 #76
-
+n = int(input())
+a = 0
+while a <= n:
+    print(a)
+    a += 1
 #77
-
+n = int(input())
+s = 0
+for i in range(1, n+1) :
+    if i%2==0:
+        s += i
+print(s)
 #78
-
+while True:
+    a = str(input())
+    if a == 'q':
+        print("q")
+        break
+    else:
+        print(a)
 #79
-
+n = int(input())
+count = 0
+s = 0
+while n > s:
+        count += 1
+        s += count
+print(count)
 #80
-
+n, m = input().split()
+n, m = int(n), int(m)
+for i in range(1, n+1) :
+  for j in range(1, m+1) :
+    print(i, j)
 #81
+a = input()
+n = int(a, 16)
 
+for i in range(1, 16):
+    print('%X' % n, '*%X' % i, '=%X' % (n * i), sep='')
 #82
-
+n = int(input())
+for i in range(1, n+1) :
+    if i%10==3 or i%10==6 or i%10==9 :
+        print("X", end=' ')
+    else:
+        print(i, end=' ')
 #83
 
 #84
